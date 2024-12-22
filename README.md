@@ -22,6 +22,11 @@ This project provides a set of utilities for:
 
 This Android application demonstrates how to use Retrofit and Hilt for Dependency Injection to check the reachability of a list of URLs. The application 4 functions Send SMS, Data usage/Speed Test and URL validation(displays a list of URLs, and upon clicking the "Verify URLs" button, it shows a check mark (✔) or a cross mark (✘) in front of each URL based on its reachability.)
 
+
+## Pending items
+- making the app the default dialer, it's not possible without getting the application signed from different OEM's due to the requirement of signature|privileged permissions such as [BIND_TELECOM_CONNECTION_SERVICE](https://developer.android.com/reference/android/Manifest.permission#BIND_TELECOM_CONNECTION_SERVICE) and [ANSWER_PHONE_CALLS](https://developer.android.com/reference/android/Manifest.permission#ANSWER_PHONE_CALLS)
+
+
 ## Technologies Used
 
 - **Kotlin**: Programming language used for the Android application.
