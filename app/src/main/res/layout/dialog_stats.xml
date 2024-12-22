@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvDataUsed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Used:"/>
+
+    <TextView
+        android:id="@+id/tvSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speed:"/>
+
+    <TextView
+        android:id="@+id/tvTimeTaken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time:"/>
+
+
+</LinearLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+
+    android:gravity="center"
+    tools:context=".ui.menu.ActionActivity"
+    android:background="@drawable/background_gradient">
+
+        <!-- App Name -->
+        <TextView
+            android:id="@+id/tv_app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="32dp"
+            android:textColor="#FFFFFF"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="2"
+            android:shadowRadius="8" />
+
+        <!-- Option 1: Send SMS to xyz -->
+        <LinearLayout
+            android:id="@+id/btn_sms_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/rounded_button"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_sms"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/send_sms_to_xyz"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+        <!-- Option 2: Check Internet Speed -->
+        <LinearLayout
+            android:id="@+id/btn_web_speed_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/rounded_button"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_speed"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_internet_speed"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+
+
+
+    <!-- Option 4: Check if link is valid -->
+        <LinearLayout
+            android:id="@+id/btn_web_link_validation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/rounded_button"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:elevation="4dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_link"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_if_link_is_valid"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+    <!-- Option 3: Call Xyz -->
+    <LinearLayout
+        android:id="@+id/btn_call_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_button_inactive"
+        android:padding="12dp"
+        android:elevation="4dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_call"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/call_xyz"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

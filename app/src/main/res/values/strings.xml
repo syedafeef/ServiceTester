@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Service Test</string>
+    <string name="send_sms_to_xyz">Send SMS to xyz</string>
+    <string name="check_internet_speed">Check internet speed</string>
+    <string name="check_if_link_is_valid">Check if link is valid</string>
+    <string name="call_xyz">Call xyz</string>
+    <string name="url_state">url state</string>
+    <string name="url">URL</string>
+</resources>
